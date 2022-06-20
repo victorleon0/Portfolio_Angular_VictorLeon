@@ -1,0 +1,26 @@
+
+.portada{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    object-fit: cover;
+
+
+
+    & img{
+        width: 300px;
+        border-radius: 200px;
+    }
+    & button{
+        width: 150px;
+        height: 40px;
+        &:hover {
+            transition: 0.5s;
+            background-color: orange;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}
